@@ -5,6 +5,7 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const carritoIcon = document.querySelector('.navbar-shopping-cart'); 
 const productDetail = document.querySelector('.product-detail');
 const cardsContainer = document.querySelector('.cards-container');
+const productDetailCards = document.querySelector('product-detail-cards');
 menuEmail.addEventListener('click', toggleDesktopMenu); //asignar el evento a ejecutar con la funcion a ejecutar
 burgerMenuIcon.addEventListener('click', toggleMobileMenu); 
 carritoIcon.addEventListener('click', toggleProductDetail);
@@ -88,6 +89,3 @@ for (product of productList){ // for (nombre de cada posicion del array of array
   
   cardsContainer.append(productCard);
 }
-
-
-
